@@ -18,7 +18,7 @@
 ## 🇺🇸 English Version
 
 ### 🎬 Video Preview
-[![Watch the Video](https://img.shields.io/badge/YouTube-Video_Preview-red?style=for-the-badge&logo=youtube)](YOUR_VIDEO_LINK_HERE)
+[![Watch the Video](https://img.shields.io/badge/YouTube-Video_Preview-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=RNGInJsR1e4)
 
 ---
 
@@ -41,7 +41,7 @@ Save and load your mod presets using the cloud to share them or use them on anot
 ## 🇪🇸 Versión en Español
 
 ### 🎬 Video Preview
-[![Ver el Video](https://img.shields.io/badge/YouTube-Video_Preview-red?style=for-the-badge&logo=youtube)](TU_ENLACE_AQUI)
+[![Ver el Video](https://img.shields.io/badge/YouTube-Video_Preview-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=RNGInJsR1e4)
 
 ---
 
@@ -66,4 +66,3 @@ Guarda y carga tus listas de mods en la nube para compartirlas o usarlas en otro
 **Developed with ❤️ for the ETS2 Community**
 
 </div>
-
