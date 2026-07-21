@@ -4,6 +4,8 @@
 
 # Truck Manager
 
+<img width="1332" height="798" alt="Captura de pantalla 2026-07-21 230144" src="https://github.com/user-attachments/assets/983cae33-91c0-4f29-bb99-956ce2452b29" />
+
 ### ES: Gestor moderno de mods, perfiles y presets para Euro Truck Simulator 2 y American Truck Simulator.
 ### EN: A modern mod, profile and preset manager for Euro Truck Simulator 2 and American Truck Simulator.
 
