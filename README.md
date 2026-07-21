@@ -31,19 +31,6 @@ The goal is to avoid manual file editing: choose the game, choose the profile, r
 
 ---
 
-## UI Preview
-
-<div align="center">
-
-<img src="ui/assets/dashboard_profiles.png" alt="Profiles UI" width="180">
-<img src="ui/assets/dashboard_mods.png" alt="Mods UI" width="180">
-<img src="ui/assets/dashboard_order.png" alt="Load order UI" width="180">
-<img src="ui/assets/dashboard_workshop.png" alt="Workshop UI" width="180">
-
-</div>
-
----
-
 ## ES | Funciones principales
 
 | Funcion | Descripcion |
