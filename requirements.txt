@@ -1,0 +1,7 @@
+customtkinter==5.2.2
+pillow>=11.0.0
+requests==2.32.3
+google-cloud-firestore==2.17.2
+firebase-admin==6.5.0
+
+pywebview>=5.3

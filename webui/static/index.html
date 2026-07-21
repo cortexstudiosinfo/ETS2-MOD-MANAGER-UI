@@ -1,0 +1,53 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Truck Manager</title>
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body class="dark">
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span class="logo">TM</span><strong id="appTitle">Truck Manager</strong></div>
+      <div class="top-actions">
+        <button id="changeGameBtn" class="ghost">Change game</button>
+        <label class="lang-picker" for="langSelect">
+          <span id="langLabel" data-i18n="language">Language</span>
+          <select id="langSelect" class="compact-select" aria-label="Language">
+            <option value="es">ES</option>
+            <option value="en">EN</option>
+          </select>
+        </label>
+        <button id="themeBtn" class="ghost">Light</button>
+        <span id="onlineBadge" class="badge">Users: --</span>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <button data-view="dashboard" data-i18n="dashboard" class="nav active">Dashboard</button>
+      <button data-view="profiles" data-i18n="profiles" class="nav">Profiles</button>
+      <button data-view="order" data-i18n="order" class="nav">Order</button>
+      <button data-view="presets" data-i18n="presets" class="nav">Presets</button>
+      <button data-view="settings" data-i18n="settings" class="nav">Settings</button>
+      <button data-view="about" data-i18n="about" class="nav">About</button>
+    </aside>
+    <main class="content">
+      <section id="gameSelect" class="view active"></section>
+      <section id="profileSelect" class="view"></section>
+      <section id="dashboard" class="view"></section>
+      <section id="profiles" class="view"></section>
+      <section id="order" class="view"></section>
+      <section id="presets" class="view"></section>
+      <section id="settings" class="view"></section>
+      <section id="about" class="view"></section>
+    </main>
+    <div id="appVersion" class="app-version">v4.0.0</div>
+  </div>
+  <div id="toastHost" class="toast-host" aria-live="polite" aria-atomic="true"></div>
+  <dialog id="notifyDialog" class="notify-dialog"><div id="notifyDialogContent"></div></dialog>
+  <dialog id="modal"><div id="modalContent"></div></dialog>
+  <script src="/static/app.js"></script>
+</body>
+</html>
+
