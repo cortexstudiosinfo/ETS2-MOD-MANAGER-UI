@@ -2,16 +2,15 @@
 
 <img src="Manager.png" alt="Truck Manager logo" width="120">
 
-# Truck Manager v4.0.0
+# Truck Manager
 
-<img width="1332" height="798" alt="Truck Manager v4.0.0 interface" src="https://github.com/user-attachments/assets/983cae33-91c0-4f29-bb99-956ce2452b29" />
+### Manage and share your ETS2 and ATS mod load orders easily.
 
-### Share and manage your ETS2 and ATS mod load order more easily.
-
-[![Version](https://img.shields.io/badge/Version-v4.0.0-60a5fa?style=for-the-badge)]()
+[![Latest Version](https://img.shields.io/badge/Latest-v5.0.0-60a5fa?style=for-the-badge)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
+[![Source Code](https://img.shields.io/badge/Open%20Source-v4.0.0-22c55e?style=for-the-badge)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI)
 [![Platform](https://img.shields.io/badge/Platform-Windows-111827?style=for-the-badge)]()
 
-[GitHub](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI) | [Discord](https://discord.gg/UUfsc89HNv) | [Email](mailto:cortex.studios.info@gmail.com)
+[Download](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases) · [Discord](https://discord.gg/UUfsc89HNv) · [Email](mailto:cortex.studios.info@gmail.com)
 
 </div>
 
@@ -19,136 +18,98 @@
 
 ## English
 
-Truck Manager was created with one main goal: to make sharing mod load orders for Euro Truck Simulator 2 and American Truck Simulator much easier.
+### What is Truck Manager?
 
-Instead of explaining which mods go first, which ones go later or manually editing profile files, you can prepare your load order inside the application, save it as a preset and share it in a clearer way.
+Truck Manager makes it easier to manage and share mod load orders for **Euro Truck Simulator 2** and **American Truck Simulator**.
 
-The application is designed for players who use many mods and want to organize their profiles without making things complicated.
+Organize your mods, save their load order as a preset, and share it with other players using a short code.
 
-## Main Goal
+### Main Features
 
-* Manage ETS2 and ATS mod load orders.
-* Save configurations as presets.
-* Share presets so other users can use the same load order.
-* Avoid editing profile files manually.
-* Make mod organization faster, visual and easier to understand.
+* Support for ETS2 and ATS.
+* Automatic profile detection.
+* Manual Mode with `-homedir` support.
+* Local and Steam Workshop mod detection.
+* Enable, disable, and reorder mods.
+* Save the load order directly to your profile.
+* Create, import, and share presets.
+* Synchronize presets between devices.
+* Automatic backups before modifying `game.sii`.
+* Profile editing tools.
+* Job Dispatcher.
+* English and Spanish interface.
 
-## What You Can Do
+> [!IMPORTANT]
+> Presets do not download or distribute mods. Every player must already have the required Steam Workshop or local mods installed.
 
-* Choose between Euro Truck Simulator 2 and American Truck Simulator.
-* Detect local and Steam profiles.
-* View installed mods.
-* Sort active mods visually.
-* Save the load order directly to the game profile.
-* Create, import, rename and delete presets.
-* Share and download presets through the database.
-* Use separate settings for ETS2 and ATS.
-* Configure manual paths for custom installations or `-homedir` setups.
+### Profile Editor
 
-## Download and Database Access
+* Change player and company names.
+* Modify money and level from 0 to 150.
+* Edit ADR skills.
+* Unlock the map, dealerships, and recruitment agencies.
 
-The source-code files published in this repository do not include private credentials or sensitive files.
+### Source Code Notice
 
-However, the official `.exe` available in the **Releases** section is already prepared and configured to connect to the Truck Manager database.
+**Truck Manager v5.0.0 is closed source.**
 
-Users who download the official `.exe` can safely use online features, including sharing and downloading presets, without creating a Firebase project or manually configuring credentials.
+The source code for v5.0.0 is not included in this repository. The latest open-source version available here is **v4.0.0**.
 
-### For Regular Users
-
-1. Open the repository's **Releases** section.
-2. Download the official Truck Manager `.exe` or release package.
-3. Open the application.
-4. Use its local and online features normally.
-
-You do not need to install Python, configure Firebase or add any credential files.
-
-### For Developers
-
-If you download only the source code and want to run or modify it yourself, private credentials are not included for security reasons.
-
-In that case, you will need to configure your own Firebase connection:
-
-1. Create a Firebase project.
-2. Enable Firestore Database.
-3. Create a service account.
-4. Download its credentials.
-5. Rename the file to `firebase_credentials.json`.
-6. Place it next to `main.py`.
-7. Never publish or upload this file to GitHub.
-
-> Users are advised to download only official versions published in the **Releases** section of this repository.
+| Version |                                  Availability                                 |  Source code  |
+| :-----: | :---------------------------------------------------------------------------: | :-----------: |
+|  v5.0.0 | [Download](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases) | Closed source |
+|  v4.0.0 |                                   Repository                                  |  Open source  |
 
 ---
 
 ## Español
 
-Truck Manager nace con un objetivo principal: hacer que compartir el orden de mods de Euro Truck Simulator 2 y American Truck Simulator sea mucho más sencillo.
+### ¿Qué es Truck Manager?
 
-En vez de explicar a otra persona qué mods van primero, cuáles van después o tener que tocar archivos manualmente, puedes preparar tu orden de carga desde la aplicación, guardarlo como preset y compartirlo de una forma más clara.
+Truck Manager facilita la gestión y el intercambio del orden de carga de mods para **Euro Truck Simulator 2** y **American Truck Simulator**.
 
-La aplicación está pensada para jugadores que utilizan muchos mods y quieren organizar sus perfiles sin complicarse.
+Organiza tus mods, guarda su orden como un preset y compártelo con otros jugadores mediante un código corto.
 
-## Objetivo principal
+### Características principales
 
-* Gestionar el orden de carga de mods de ETS2 y ATS.
-* Guardar configuraciones como presets.
-* Compartir presets para que otros usuarios puedan utilizar el mismo orden.
-* Evitar modificar manualmente los archivos del perfil.
-* Hacer que la organización de mods sea más rápida, visual y fácil de entender.
+* Compatibilidad con ETS2 y ATS.
+* Detección automática de perfiles.
+* Modo Manual compatible con `-homedir`.
+* Detección de mods locales y de Steam Workshop.
+* Activar, desactivar y reordenar mods.
+* Guardar el orden directamente en el perfil.
+* Crear, importar y compartir presets.
+* Sincronizar presets entre dispositivos.
+* Copias de seguridad automáticas antes de modificar `game.sii`.
+* Herramientas de edición de perfiles.
+* Job Dispatcher.
+* Interfaz en inglés y español.
 
-## Qué puedes hacer
+> [!IMPORTANT]
+> Los presets no descargan ni distribuyen mods. Cada jugador debe tener instalados previamente los mods de Steam Workshop o de la carpeta local.
 
-* Elegir entre Euro Truck Simulator 2 y American Truck Simulator.
-* Detectar perfiles locales y perfiles de Steam.
-* Ver los mods instalados.
-* Ordenar los mods activos de forma visual.
-* Guardar el orden directamente en el perfil del juego.
-* Crear, importar, renombrar y eliminar presets.
-* Compartir y descargar presets mediante la base de datos.
-* Utilizar ajustes separados para ETS2 y ATS.
-* Configurar rutas manualmente para instalaciones personalizadas o configuraciones con `-homedir`.
+### Editor de perfiles
 
-## Descarga y base de datos
+* Cambiar el nombre del jugador y de la empresa.
+* Modificar el dinero y el nivel de 0 a 150.
+* Editar las habilidades ADR.
+* Desbloquear el mapa, los concesionarios y las agencias de empleo.
 
-Los archivos de código fuente publicados en este repositorio no incluyen credenciales privadas ni archivos sensibles.
+### Aviso sobre el código fuente
 
-Sin embargo, el archivo `.exe` oficial disponible en la sección **Releases** ya está preparado y configurado para conectarse a la base de datos de Truck Manager.
+**Truck Manager v5.0.0 es de código cerrado.**
 
-Los usuarios que descarguen el `.exe` oficial pueden utilizar tranquilamente las funciones online, como compartir y descargar presets, sin tener que crear un proyecto de Firebase ni configurar credenciales manualmente.
+El código fuente de v5.0.0 no está incluido en este repositorio. La última versión de código abierto disponible aquí es la **v4.0.0**.
 
-### Para usuarios normales
-
-1. Entra en la sección **Releases** del repositorio.
-2. Descarga el archivo `.exe` o el paquete oficial de Truck Manager.
-3. Abre la aplicación.
-4. Utiliza las funciones locales y online normalmente.
-
-No necesitas instalar Python, configurar Firebase ni añadir ningún archivo de credenciales.
-
-### Para desarrolladores
-
-Si descargas únicamente el código fuente y quieres ejecutarlo o modificarlo por tu cuenta, las credenciales privadas no estarán incluidas por motivos de seguridad.
-
-En ese caso, tendrás que configurar tu propia conexión a Firebase:
-
-1. Crea un proyecto en Firebase.
-2. Activa Firestore Database.
-3. Crea una cuenta de servicio.
-4. Descarga sus credenciales.
-5. Renombra el archivo a `firebase_credentials.json`.
-6. Colócalo junto a `main.py`.
-7. No publiques ni subas ese archivo a GitHub.
-
-> Se recomienda a los usuarios descargar únicamente las versiones oficiales publicadas en la sección **Releases** de este repositorio.
+| Versión |                                 Disponibilidad                                 |  Código fuente |
+| :-----: | :----------------------------------------------------------------------------: | :------------: |
+|  v5.0.0 | [Descargar](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases) | Código cerrado |
+|  v4.0.0 |                                   Repositorio                                  | Código abierto |
 
 ---
 
 <div align="center">
 
-**Truck Manager v4.0.0**
-
-GitHub: [cortexstudiosinfo/ETS2-MOD-MANAGER-UI](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI)  
-Discord: https://discord.gg/UUfsc89HNv  
-Email: cortex.studios.info@gmail.com
+[Download](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases) · [Discord](https://discord.gg/UUfsc89HNv) · [cortex.studios.info@gmail.com](mailto:cortex.studios.info@gmail.com)
 
 </div>
