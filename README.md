@@ -6,7 +6,7 @@
 
 ### Manage and share your ETS2 and ATS mod load orders easily.
 
-[![Latest Version](https://img.shields.io/badge/Latest-v5.0.0-60a5fa?style=for-the-badge)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
+[![Latest Version](https://img.shields.io/badge/Latest-v5.1.0-60a5fa?style=for-the-badge)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
 [![Source Code](https://img.shields.io/badge/Open%20Source-v4.0.0-22c55e?style=for-the-badge)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI)
 [![Platform](https://img.shields.io/badge/Platform-Windows-111827?style=for-the-badge)]()
 
