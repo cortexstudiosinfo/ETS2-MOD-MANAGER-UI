@@ -1,0 +1,61 @@
+Cortex Studios Source Attribution License (CSAL) v1.0
+
+Copyright (c) 2026 Cortex Studios. All rights reserved except as expressly stated below.
+
+1. SCOPE
+
+This license applies only to source code that Cortex Studios has intentionally made public in the ETS2-MOD-MANAGER-UI repository, including the publicly available Truck Manager v4.0.0 source code, unless a specific file states otherwise.
+
+Truck Manager v5.0.0 is CLOSED SOURCE. Its source code is proprietary, is not public, and is not licensed under this document. No right to access, copy, modify, publish, distribute, sublicense, or sell the source code of Truck Manager v5.0.0 is granted by this license.
+
+2. PERMISSION FOR PUBLIC SOURCE CODE
+
+Permission is granted, free of charge, to use, study, copy, modify, and distribute the public source code covered by this license, including in forks, ports, and derivative projects, subject to all conditions below.
+
+3. REQUIRED CREDIT / ATTRIBUTION
+
+If you publish, distribute, or make publicly available a project that copies, modifies, incorporates, ports, or is substantially derived from any source code covered by this license, you must give clear and visible credit to the original project.
+
+The credit must include, at minimum:
+
+"Based on Truck Manager by Cortex Studios"
+
+and a link to the original repository:
+
+https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI
+
+The credit must appear in the project's README, documentation, credits page, or another location that is reasonably visible to users and developers.
+
+You must also keep this copyright notice and this license notice in copies or substantial portions of the covered source code.
+
+This attribution requirement applies to works that actually use or derive from the covered source code. It does not claim ownership of independently written software merely because it has similar ideas, features, workflows, or functionality.
+
+4. MODIFICATIONS
+
+Modified versions must not falsely claim to be an official Cortex Studios release. If you distribute a modified version, you must clearly indicate that it has been modified from the original project.
+
+5. CORTEX STUDIOS NAME AND BRANDING
+
+This license does not grant permission to use the Cortex Studios name, logos, trademarks, branding, or other identifying assets in a way that suggests endorsement, sponsorship, partnership, or official status.
+
+Required factual attribution under Section 3 is permitted.
+
+6. CLOSED-SOURCE VERSION NOTICE
+
+Truck Manager v5.0.0 is proprietary closed-source software. The fact that earlier source code is publicly available does not grant any license or right to the v5.0.0 source code.
+
+Any source code, internal components, services, private APIs, assets, or other materials belonging specifically to Truck Manager v5.0.0 that have not been intentionally published by Cortex Studios remain proprietary and all rights are reserved.
+
+7. NO WARRANTY
+
+THE COVERED SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL CORTEX STUDIOS OR THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+8. PREVIOUS LICENSE GRANTS
+
+Nothing in this document is intended to revoke rights that were already validly granted for a particular copy or version of the software under a previous license. This license governs copies of the covered public source code distributed by Cortex Studios under these terms from the date this license is published, subject to any license notices that already apply to particular files or releases.
+
+9. CONTACT
+
+For permissions not granted by this license, contact Cortex Studios:
+
+cortex.studios.info@gmail.com
