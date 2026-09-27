@@ -45,6 +45,16 @@ Customize how the Logitech G923 LEDs behave:
 
 > **3D Trailer Preview** is currently available to Beta Testers and is planned for everyone in **V5.5.0**.
 
+### 🧪 Become a Beta Tester
+
+Want early access to Beta Tester features?
+
+1. Join our [**Discord server**](https://discord.gg/UUfsc89HNv).
+2. Open a **Tester Ticket**.
+3. Send the information requested in the ticket.
+
+If approved, you will receive the **Beta Tester** role and access to beta-only features.
+
 <div align="center">
 
 ### [⬇️ Download Truck Manager V5.4.0](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
@@ -135,6 +145,16 @@ Una actualización centrada en mejorar la compatibilidad con el **Logitech G923*
 - Ajuste del punto de activación y velocidad del parpadeo.
 
 > La preview 3D del remolque está disponible actualmente para **Beta Testers** y está prevista para todos en la **V5.5.0**.
+
+### 🧪 Cómo conseguir Beta Tester
+
+Para conseguir acceso a las funciones de **Beta Tester**:
+
+1. Únete a nuestro [**servidor de Discord**](https://discord.gg/UUfsc89HNv).
+2. Abre un **ticket de Tester**.
+3. Envía la información que se solicita dentro del ticket.
+
+Si eres aceptado, recibirás el rol **Beta Tester** y acceso a las funciones exclusivas de prueba.
 
 ### Funciones principales
 
