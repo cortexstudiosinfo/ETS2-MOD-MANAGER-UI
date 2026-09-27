@@ -6,7 +6,7 @@
 
 ### Manage and share your ETS2 and ATS mod load orders easily.
 
-[![Latest Version](https://img.shields.io/badge/Latest-v5.3.0-60a5fa?style=for-the-badge)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
+[![Latest Version](https://img.shields.io/badge/Latest-v5.4.0-60a5fa?style=for-the-badge)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
 [![Source Code](https://img.shields.io/badge/Open%20Source-v4.0.0-22c55e?style=for-the-badge)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI)
 [![Platform](https://img.shields.io/badge/Platform-Windows-111827?style=for-the-badge)]()
 
@@ -18,43 +18,64 @@
 
 ## English
 
-## 🚀 NEW UPDATE — V5.3.0 NOW AVAILABLE
+## 🚀 NEW UPDATE — V5.4.0 NOW AVAILABLE
 
-**Truck Manager V5.3.0 is now available!**
+**Truck Manager V5.4.0 is now available!**
 
-This update introduces two major new features:
+This update expands Logitech G923 support, improves profile editing, introduces the new LED Studio, adds Discord account linking, and includes several Job Dispatcher improvements.
 
-### 🤖 AI Mod Load Order
+### 🎮 Logitech G923 support for American Truck Simulator
 
-A new **AI-powered Auto Order button** can analyze your installed ETS2 / ATS mods and automatically generate a recommended load order based on:
+Logitech G923 RPM LED support is now available for **American Truck Simulator**, in addition to Euro Truck Simulator 2.
 
-* Mod types
-* Dependencies
-* Compatibility
-* Conflicts
-* Maps
-* Trucks
-* Trailers
-* Graphics
-* Traffic
-* Sounds
-* Physics
-* Fixes
-* And more
+### 💾 Autosave or Custom Save
 
-This makes it much easier to organize large mod lists and create a cleaner and more compatible load order.
+When editing a profile, you can now choose whether Truck Manager should use the **Autosave** or a **custom save** selected by you.
 
-### 💡 Logitech G923 RPM LEDs
+### 🗺️ Unlock Full Map Fix
 
-Truck Manager now includes a new extra for the **Logitech G923 steering wheel**.
+Fixed issues with the **Unlock Full Map** profile editor option.
 
-The RPM LEDs on the G923 can react in real time to the truck engine RPM while playing **Euro Truck Simulator 2**.
+### 🛞 Steering Wheel Centering
 
-▶️ **Preview:** [Watch Logitech G923 RPM LEDs in action](https://youtu.be/ADcVsp7LMdE)
+Added a new **Steering Wheel Centering** feature.
 
-> **V5.3.0 is available now. Download the latest version and try the new features!**
+### 💡 LED Studio
 
-### [⬇️ Download Truck Manager V5.3.0](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
+The new **LED Studio** gives you more control over the Logitech G923 RPM LEDs.
+
+Available options include:
+
+* **Engine RPM** — Enable or disable RPM LED behavior without disabling the telemetry plugin.
+* **Engine Start** — Play an LED effect when the truck engine starts.
+* **Gear Change** — Configure an LED blinking effect at high RPM.
+* Adjust the RPM point at which the Gear Change blinking effect starts.
+* Adjust how fast the Gear Change effect blinks.
+* **Reverse Gear** — Slow LED blinking effect while driving in reverse.
+* Configure the RPM at which the **first LED** starts lighting up.
+* Configure the RPM at which **all LEDs** are fully illuminated.
+
+### 🔗 Discord Account Linking
+
+You can now link your **Discord account** with Truck Manager.
+
+At the moment, this is used to verify whether your Discord account has the **Beta Tester role**.
+
+Discord linking will also be used for additional features in future updates.
+
+### 🚚 Job Dispatcher
+
+The Job Dispatcher now includes a **3D trailer preview** for Beta Testers.
+
+This feature is currently exclusive to Beta Testers and is planned to become publicly available in **V5.5.0**.
+
+### 📦 Cargo Name Fixes
+
+Fixed cargo name issues inside the **Job Dispatcher**.
+
+> **V5.4.0 is available now. Download the latest version and try the new features!**
+
+### [⬇️ Download Truck Manager V5.4.0](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
 
 ---
 
@@ -72,13 +93,18 @@ Organize your mods, save their load order as a preset, and share it with other p
 * Local and Steam Workshop mod detection.
 * Enable, disable, and reorder mods.
 * Save the load order directly to your profile.
+* Choose between Autosave and custom saves when editing profiles.
 * Create, import, and share presets.
 * Synchronize presets between devices.
 * Automatic backups before modifying `game.sii`.
 * AI-powered automatic mod load ordering.
-* Logitech G923 RPM LED support.
+* Logitech G923 RPM LED support for ETS2 and ATS.
+* LED Studio.
+* Steering Wheel Centering.
+* Discord account linking.
 * Profile editing tools.
 * Job Dispatcher.
+* 3D trailer preview for Beta Testers.
 * English and Spanish interface.
 
 > [!IMPORTANT]
@@ -90,6 +116,7 @@ Organize your mods, save their load order as a preset, and share it with other p
 * Modify money and level from 0 to 150.
 * Edit ADR skills.
 * Unlock the map, dealerships, and recruitment agencies.
+* Choose between Autosave and a custom save before modifying the profile.
 
 ### Source Code Notice
 
@@ -99,50 +126,71 @@ The source code for the latest versions is not included in this repository. The 
 
 | Version |                                  Availability                                 |  Source code  |
 | :-----: | :---------------------------------------------------------------------------: | :-----------: |
-|  v5.3.0 | [Download](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases) | Closed source |
+|  v5.4.0 | [Download](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases) | Closed source |
 |  v4.0.0 |                                   Repository                                  |  Open source  |
 
 ---
 
 ## Español
 
-## 🚀 NUEVA ACTUALIZACIÓN — V5.3.0 YA DISPONIBLE
+## 🚀 NUEVA ACTUALIZACIÓN — V5.4.0 YA DISPONIBLE
 
-**¡Truck Manager V5.3.0 ya está disponible!**
+**¡Truck Manager V5.4.0 ya está disponible!**
 
-Esta actualización incorpora dos nuevas funciones principales:
+Esta actualización amplía la compatibilidad con el Logitech G923, mejora la edición de perfiles, introduce el nuevo LED Studio, añade la vinculación con Discord e incorpora varias mejoras para el Job Dispatcher.
 
-### 🤖 Orden automático de mods con IA
+### 🎮 Logitech G923 compatible con American Truck Simulator
 
-Un nuevo botón de **orden automático mediante IA** permite analizar los mods instalados de ETS2 / ATS y generar automáticamente un orden de carga recomendado teniendo en cuenta:
+La compatibilidad de los LEDs RPM del **Logitech G923** ya está disponible también para **American Truck Simulator**, además de Euro Truck Simulator 2.
 
-* Tipos de mods
-* Dependencias
-* Compatibilidad
-* Conflictos
-* Mapas
-* Camiones
-* Remolques
-* Gráficos
-* Tráfico
-* Sonidos
-* Física
-* Fixes
-* Y mucho más
+### 💾 Autosave o guardado personalizado
 
-Esto facilita mucho la organización de listas grandes de mods y permite conseguir un orden de carga más limpio y compatible.
+Al editar un perfil, ahora puedes elegir si Truck Manager debe utilizar el **Autosave** o un **guardado personalizado** seleccionado por ti.
 
-### 💡 LEDs RPM Logitech G923
+### 🗺️ Fix Unlock Full Map
 
-Truck Manager incluye ahora un nuevo extra para el volante **Logitech G923**.
+Corregidos varios problemas relacionados con la opción **Unlock Full Map** del editor de perfiles.
 
-Los LEDs RPM del G923 pueden reaccionar en tiempo real a las RPM del motor del camión mientras juegas a **Euro Truck Simulator 2**.
+### 🛞 Steering Wheel Centering
 
-▶️ **Preview:** [Ver los LEDs RPM del Logitech G923 en funcionamiento](https://youtu.be/ADcVsp7LMdE)
+Añadida una nueva función de **centrado del volante**.
 
-> **V5.3.0 ya está disponible. Descarga la última versión y prueba las nuevas funciones.**
+### 💡 LED Studio
 
-### [⬇️ Descargar Truck Manager V5.3.0](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
+El nuevo **LED Studio** permite personalizar con mucho más detalle el comportamiento de los LEDs RPM del Logitech G923.
+
+Opciones disponibles:
+
+* **Engine RPM** — Activa o desactiva el funcionamiento de los LEDs RPM sin desactivar el plugin de telemetría.
+* **Engine Start** — Ejecuta un efecto en los LEDs al arrancar el motor.
+* **Gear Change** — Permite configurar un efecto de parpadeo cuando las RPM son altas.
+* Puedes ajustar a qué RPM empieza el parpadeo de Gear Change.
+* Puedes ajustar la velocidad del parpadeo.
+* **Reverse Gear** — Activa un parpadeo lento mientras conduces marcha atrás.
+* Puedes configurar a qué RPM comienza a encenderse el **primer LED**.
+* Puedes configurar a qué RPM quieres que estén **todos los LEDs encendidos**.
+
+### 🔗 Vinculación con Discord
+
+Ahora puedes vincular tu **cuenta de Discord** con Truck Manager.
+
+Actualmente, esta función se utiliza para comprobar si tu cuenta tiene el rol **Beta Tester**.
+
+La vinculación con Discord también se utilizará para nuevas funciones en próximas actualizaciones.
+
+### 🚚 Job Dispatcher
+
+El Job Dispatcher incluye ahora una **preview 3D del remolque** para los Beta Testers.
+
+Actualmente esta función es exclusiva para Beta Testers y está previsto que esté disponible públicamente en la **V5.5.0**.
+
+### 📦 Corrección de nombres de carga
+
+Corregidos problemas con los nombres de las cargas dentro del **Job Dispatcher**.
+
+> **V5.4.0 ya está disponible. Descarga la última versión y prueba las nuevas funciones.**
+
+### [⬇️ Descargar Truck Manager V5.4.0](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
 
 ---
 
@@ -160,13 +208,18 @@ Organiza tus mods, guarda su orden como un preset y compártelo con otros jugado
 * Detección de mods locales y de Steam Workshop.
 * Activar, desactivar y reordenar mods.
 * Guardar el orden directamente en el perfil.
+* Elegir entre Autosave y un guardado personalizado al editar perfiles.
 * Crear, importar y compartir presets.
 * Sincronizar presets entre dispositivos.
 * Copias de seguridad automáticas antes de modificar `game.sii`.
 * Orden automático de mods mediante IA.
-* Compatibilidad con los LEDs RPM del Logitech G923.
+* Compatibilidad con los LEDs RPM del Logitech G923 en ETS2 y ATS.
+* LED Studio.
+* Steering Wheel Centering.
+* Vinculación con Discord.
 * Herramientas de edición de perfiles.
 * Job Dispatcher.
+* Preview 3D del remolque para Beta Testers.
 * Interfaz en inglés y español.
 
 > [!IMPORTANT]
@@ -178,6 +231,7 @@ Organiza tus mods, guarda su orden como un preset y compártelo con otros jugado
 * Modificar el dinero y el nivel de 0 a 150.
 * Editar las habilidades ADR.
 * Desbloquear el mapa, los concesionarios y las agencias de empleo.
+* Elegir entre Autosave y un guardado personalizado antes de modificar el perfil.
 
 ### Aviso sobre el código fuente
 
@@ -187,7 +241,7 @@ El código fuente de las últimas versiones no está incluido en este repositori
 
 | Versión |                                 Disponibilidad                                 |  Código fuente |
 | :-----: | :----------------------------------------------------------------------------: | :------------: |
-|  v5.3.0 | [Descargar](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases) | Código cerrado |
+|  v5.4.0 | [Descargar](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases) | Código cerrado |
 |  v4.0.0 |                                   Repositorio                                  | Código abierto |
 
 ---
