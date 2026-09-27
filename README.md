@@ -45,7 +45,7 @@ Customize how the Logitech G923 LEDs behave:
 
 > **3D Trailer Preview** is currently available to Beta Testers and is planned for everyone in **V5.5.0**.
 
-### 🧪 Become a Beta Tester
+### Become a Beta Tester
 
 Want early access to Beta Tester features?
 
@@ -146,7 +146,7 @@ Una actualización centrada en mejorar la compatibilidad con el **Logitech G923*
 
 > La preview 3D del remolque está disponible actualmente para **Beta Testers** y está prevista para todos en la **V5.5.0**.
 
-### 🧪 Cómo conseguir Beta Tester
+### Cómo conseguir Beta Tester
 
 Para conseguir acceso a las funciones de **Beta Tester**:
 
