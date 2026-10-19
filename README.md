@@ -92,14 +92,6 @@ Include your app version, game, selected feature, reproduction steps and latest 
 
 [Discord support](https://discord.gg/UUfsc89HNv) · [Email](mailto:cortex.studios.info@gmail.com)
 
-## Source & branding
-
-**Truck Manager V5.0.0 and newer are closed source.** This repository is not the source tree for the current desktop application. Download runnable builds from Releases; GitHub's source ZIP is not the desktop installer.
-
-[Transparent TM logo](assets/truck-manager-logo.svg) · [README header](assets/truck-manager-header.svg)
-
-Brand palette: **Mint** `#6CE4CF` · **Ice** `#E7EFF6` · **Deep navy** `#101D29` · **Teal** `#173F50`.
-
 ---
 
 ## Español
