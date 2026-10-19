@@ -8,20 +8,17 @@
 
 [![Latest release](https://img.shields.io/github/v/release/cortexstudiosinfo/ETS2-MOD-MANAGER-UI?style=flat-square&color=6ce4cf&label=Download)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest)
 ![Platform](https://img.shields.io/badge/Windows-Desktop-173f50?style=flat-square)
-![Beta](https://img.shields.io/badge/Preview-V5.6.0-6ce4cf?style=flat-square)
+![New release](https://img.shields.io/badge/New_release-V5.6.0-6ce4cf?style=flat-square)
 
 [**Download**](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest) · [**Join Discord**](https://discord.gg/UUfsc89HNv) · [**Support**](mailto:cortex.studios.info@gmail.com) · [**Español**](#español)
 
 </div>
 
-## Choose your release
+## Truck Manager V5.6.0 — out now
 
-| Channel | Availability |
-|---|---|
-| **Public release** | Download the latest official executable from [Releases](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest). As of 19 October 2026, this is **V5.5.1**. |
-| **V5.6.0 beta** | Preview of the redesigned interface and expanded tools described below. Access depends on your account and Discord permissions. **Truck Tuning requires the Beta Tester role.** |
+A new look. More ways to create jobs. Live truck controls for ETS2 and ATS.
 
-Beta features are being tested and may change. The latest public download does not necessarily include every feature shown in the beta overview.
+Discover the redesigned interface, expanded Job Dispatcher, RPM & LED Studio and Truck Tuning below.
 
 ## Organize your setup
 
@@ -32,11 +29,11 @@ Beta features are being tested and may change. The latest public download does n
 | **Profiles & saves** | Detect ETS2 and ATS profiles, select an autosave or manual save, and use a custom game home directory. |
 | **Profile Editor** | Edit player/company details, money, level and skills; unlock map progress, dealerships and recruitment agencies. |
 | **RPM & LED Studio** | Configure Logitech G923 RPM LEDs, engine-start effects, gear-change blinking and reverse effects for ETS2 and ATS. Adjust thresholds and wheel-centering settings. |
-| **Account** | Link Discord, check access to beta features and manage language preferences. |
+| **Account** | Link Discord, view your account information and manage language preferences. |
 
 Presets share a **mod configuration**, not the mod files. Install the required local or Workshop mods separately.
 
-## V5.6.0 beta — a new interface
+## V5.6.0 — a new interface
 
 A refreshed dark interface with the transparent **TM** logo, mint accents and clearer layouts across Load Order, RPM, account settings and the connection screen.
 
@@ -46,11 +43,11 @@ A refreshed dark interface with the transparent **TM** logo, mint accents and cl
 - Connection feedback and an offline fallback for available local tools.
 - Improvements to startup, job preparation and desktop recovery.
 
-Online services and restricted beta features still require a connection and verified access.
+Online services require a connection and verified access.
 
 ## Job Dispatcher — choose how you drive
 
-The expanded beta dispatcher supports **ETS2 and ATS** with three workflows:
+The expanded dispatcher supports **ETS2 and ATS** with three workflows:
 
 | Mode | Your setup |
 |---|---|
@@ -64,7 +61,7 @@ Job preparation works with the loaded profile from the menu or cab, subject to t
 
 Adapters check the running game before applying changes. Game updates may still require an application or adapter update; compatibility with every future version is not guaranteed.
 
-## Truck Tuning — Beta Testers
+## Truck Tuning
 
 Live controls for the currently loaded truck in **ETS2 and ATS**:
 
@@ -88,10 +85,6 @@ Availability depends on the detected truck and game version. Reconnect after cha
 5. For live tools, open the selected game, load your profile and follow the instructions in the app.
 
 No Python installation or database configuration is required for the official executable.
-
-### Become a Beta Tester
-
-Join [Discord](https://discord.gg/UUfsc89HNv), open a **Tester Ticket** and provide the requested information. Approved testers receive the role used to verify beta access.
 
 ### Need help?
 
@@ -118,8 +111,9 @@ Brand palette: **Mint** `#6CE4CF` · **Ice** `#E7EFF6` · **Deep navy** `#101D29
 
 Truck Manager reúne mods, orden de carga, presets, perfiles, trabajos y ajustes de conducción en Windows.
 
-**Versión pública:** V5.5.1 a fecha de 19 de octubre de 2026. Descárgala en [Releases](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest).  
-**V5.6.0 beta:** incluye la nueva interfaz y las funciones ampliadas en pruebas. No todas están disponibles en la descarga pública. **Truck Tuning requiere el rol Beta Tester.**
+### Truck Manager V5.6.0 — recién lanzado
+
+Nueva interfaz, más opciones para crear trabajos y controles en tiempo real para ETS2 y ATS. Descubre el Job Dispatcher ampliado, RPM y LED Studio, y Truck Tuning.
 
 ### Herramientas principales
 
@@ -128,9 +122,9 @@ Truck Manager reúne mods, orden de carga, presets, perfiles, trabajos y ajustes
 - **Perfiles y partidas:** detección de ETS2/ATS, autoguardados, partidas manuales y directorios personalizados.
 - **Editor de perfiles:** datos del jugador y empresa, dinero, nivel, habilidades, mapa, concesionarios y agencias.
 - **RPM y LED Studio:** LEDs del Logitech G923, efectos de arranque, cambio de marcha y marcha atrás, umbrales y centrado del volante.
-- **Cuenta:** vinculación con Discord, información de roles, acceso beta y selección de idioma.
+- **Cuenta:** vinculación con Discord, información de roles y selección de idioma.
 
-### Nueva interfaz V5.6.0 beta
+### Nueva interfaz V5.6.0
 
 Logo TM transparente, colores menta y azul oscuro, nuevas distribuciones en Order, RPM y cuenta, y pantalla de conexión renovada. Incluye mejoras de arranque, preparación de trabajos y recuperación de la ventana.
 
@@ -146,7 +140,7 @@ Las imágenes de carga y vistas previas ayudan a revisar la selección. La prepa
 
 Los adaptadores comprueban el juego antes de aplicar cambios. Una actualización del juego puede requerir actualizar Truck Manager o sus adaptadores.
 
-### Truck Tuning — Beta Testers
+### Truck Tuning
 
 Controles en tiempo real de potencia, longitud de marchas, restauración **Default truck**, **No Damage** y limitador local para ETS2 y ATS. Su disponibilidad depende del camión y la versión del juego. Vuelve a conectar después de cambiar de camión o cargar otra partida.
 
@@ -160,7 +154,7 @@ Controles en tiempo real de potencia, longitud de marchas, restauración **Defau
 4. Conserva una partida manual reciente antes de editar.
 5. Para las herramientas en vivo, carga el perfil en el juego y sigue las indicaciones.
 
-No necesitas Python ni configurar una base de datos. Para solicitar acceso beta, entra en [Discord](https://discord.gg/UUfsc89HNv) y abre un **ticket de Tester**.
+No necesitas Python ni configurar una base de datos. Para obtener ayuda, entra en [Discord](https://discord.gg/UUfsc89HNv).
 
 Al solicitar ayuda, indica versión, juego, pasos para reproducir el problema y el último registro, eliminando datos personales antes de publicarlo.
 
