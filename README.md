@@ -1,183 +1,170 @@
 <div align="center">
 
-<img src="Manager.png" alt="Truck Manager" width="110">
+<img src="assets/truck-manager-header.svg" alt="Truck Manager — Your mods. Your routes. Your setup." width="1200">
 
 # Truck Manager
 
-**Modern mod management for Euro Truck Simulator 2 & American Truck Simulator**
+**One Windows app for your mods, profiles, jobs and driving setup in ETS2 & ATS.**
 
-[![Latest](https://img.shields.io/badge/Latest-v5.4.0-60a5fa?style=flat-square)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
-[![Windows](https://img.shields.io/badge/Windows-Supported-111827?style=flat-square)]()
-[![Open Source](https://img.shields.io/badge/Open%20Source-v4.0.0-22c55e?style=flat-square)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI)
+[![Latest release](https://img.shields.io/github/v/release/cortexstudiosinfo/ETS2-MOD-MANAGER-UI?style=flat-square&color=6ce4cf&label=Download)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest)
+![Platform](https://img.shields.io/badge/Windows-Desktop-173f50?style=flat-square)
+![Beta](https://img.shields.io/badge/Preview-V5.6.0-6ce4cf?style=flat-square)
 
-[**Download**](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases) · [**Discord**](https://discord.gg/UUfsc89HNv) · [**Email**](mailto:cortex.studios.info@gmail.com)
+[**Download**](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest) · [**Join Discord**](https://discord.gg/UUfsc89HNv) · [**Support**](mailto:cortex.studios.info@gmail.com) · [**Español**](#español)
 
 </div>
 
----
+## Choose your release
 
-## V5.4.0
-
-A cleaner, more complete update focused on **Logitech G923 support, profile editing and Job Dispatcher improvements**.
-
-| Feature | What's new |
+| Channel | Availability |
 |---|---|
-| 🎮 **G923 + ATS** | RPM LEDs now work with **American Truck Simulator** |
-| 💡 **LED Studio** | Customize RPM LEDs, startup, gear change and reverse effects |
-| 💾 **Save Selection** | Choose between **Autosave** and a custom save |
-| 🛞 **Wheel Centering** | New steering wheel centering feature |
-| 🔗 **Discord Linking** | Link your Discord account and verify the **Beta Tester** role |
-| 🚚 **Job Dispatcher** | 3D trailer preview for Beta Testers |
-| 🗺️ **Profile Editor** | Fixed **Unlock Full Map** |
-| 📦 **Cargo Names** | Fixed Job Dispatcher cargo names |
+| **Public release** | Download the latest official executable from [Releases](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest). As of 19 October 2026, this is **V5.5.1**. |
+| **V5.6.0 beta** | Preview of the redesigned interface and expanded tools described below. Access depends on your account and Discord permissions. **Truck Tuning requires the Beta Tester role.** |
 
-### LED Studio
+Beta features are being tested and may change. The latest public download does not necessarily include every feature shown in the beta overview.
 
-Customize how the Logitech G923 LEDs behave:
+## Organize your setup
 
-- **Engine RPM** — enable or disable RPM LEDs without disabling the telemetry plugin.
-- **Engine Start** — LED effect when the engine starts.
-- **Gear Change** — configurable high-RPM blinking effect.
-- **Reverse Gear** — slow blinking effect while reversing.
-- Set when the **first LED** turns on.
-- Set when **all LEDs** are fully lit.
-- Adjust the **Gear Change RPM threshold** and blink speed.
+| Tool | What you can do |
+|---|---|
+| **Load order** | Find local and Steam Workshop mods, enable or disable them, organize categories, use Auto Sort and save the load order to your selected profile. |
+| **Presets** | Save mod combinations, share them with codes and import another player's setup. |
+| **Profiles & saves** | Detect ETS2 and ATS profiles, select an autosave or manual save, and use a custom game home directory. |
+| **Profile Editor** | Edit player/company details, money, level and skills; unlock map progress, dealerships and recruitment agencies. |
+| **RPM & LED Studio** | Configure Logitech G923 RPM LEDs, engine-start effects, gear-change blinking and reverse effects for ETS2 and ATS. Adjust thresholds and wheel-centering settings. |
+| **Account** | Link Discord, check access to beta features and manage language preferences. |
 
-> **3D Trailer Preview** is currently available to Beta Testers and is planned for everyone in **V5.5.0**.
+Presets share a **mod configuration**, not the mod files. Install the required local or Workshop mods separately.
+
+## V5.6.0 beta — a new interface
+
+A refreshed dark interface with the transparent **TM** logo, mint accents and clearer layouts across Load Order, RPM, account settings and the connection screen.
+
+- Redesigned controls and panels with a consistent visual style.
+- English by default, with language selection in the application.
+- Discord role information in your account profile.
+- Connection feedback and an offline fallback for available local tools.
+- Improvements to startup, job preparation and desktop recovery.
+
+Online services and restricted beta features still require a connection and verified access.
+
+## Job Dispatcher — choose how you drive
+
+The expanded beta dispatcher supports **ETS2 and ATS** with three workflows:
+
+| Mode | Your setup |
+|---|---|
+| **Company trailer / Pick up trailer** | Use your truck and collect the job's trailer at the selected company. |
+| **Your trailer** | Use your attached personal trailer. Choose the departure city and company, a compatible cargo, and the destination. |
+| **Quick job** | Create a job with a supplied truck, without needing to own one. |
+
+The personal-trailer catalog filters cargo by trailer compatibility and supports selecting cargo beyond the company's existing offers. Cargo images and trailer previews help you review your selection.
+
+Job preparation works with the loaded profile from the menu or cab, subject to the game state and adapter support. Follow the application's readiness message before accepting a generated offer.
+
+Adapters check the running game before applying changes. Game updates may still require an application or adapter update; compatibility with every future version is not guaranteed.
+
+## Truck Tuning — Beta Testers
+
+Live controls for the currently loaded truck in **ETS2 and ATS**:
+
+- **Engine power** adjustment.
+- **Gear length** adjustment.
+- **Default truck** reset.
+- **No Damage** control.
+- **Local speed-limiter** control.
+
+Availability depends on the detected truck and game version. Reconnect after changing trucks or loading another save.
+
+> [!WARNING]
+> **Use Truck Tuning in single player only.** Engine, gearing, No Damage and speed-limiter modifications can result in a **TruckersMP ban**. Detection by the app does not mean a feature is permitted on a multiplayer server.
+
+## Get started
+
+1. Download the official executable from [Releases](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest).
+2. Open Truck Manager and select **ETS2** or **ATS**, then your profile.
+3. Link your Discord account when a feature requires verified access.
+4. Keep a recent manual save before editing profiles or saves.
+5. For live tools, open the selected game, load your profile and follow the instructions in the app.
+
+No Python installation or database configuration is required for the official executable.
 
 ### Become a Beta Tester
 
-Want early access to Beta Tester features?
+Join [Discord](https://discord.gg/UUfsc89HNv), open a **Tester Ticket** and provide the requested information. Approved testers receive the role used to verify beta access.
 
-1. Join our [**Discord server**](https://discord.gg/UUfsc89HNv).
-2. Open a **Tester Ticket**.
-3. Send the information requested in the ticket.
+### Need help?
 
-If approved, you will receive the **Beta Tester** role and access to beta-only features.
+Include your app version, game, selected feature, reproduction steps and latest log when contacting support. Remove personal information before posting logs publicly.
 
-<div align="center">
+[Discord support](https://discord.gg/UUfsc89HNv) · [Email](mailto:cortex.studios.info@gmail.com)
 
-### [⬇️ Download Truck Manager V5.4.0](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases)
+## Source & branding
 
-</div>
+**Truck Manager V5.0.0 and newer are closed source.** This repository is not the source tree for the current desktop application. Download runnable builds from Releases; GitHub's source ZIP is not the desktop installer.
 
----
+[Transparent TM logo](assets/truck-manager-logo.svg) · [README header](assets/truck-manager-header.svg)
 
-## Features
-
-- ETS2 & ATS support
-- Local and Steam Workshop mods
-- Automatic profile detection
-- Manual Mode with `-homedir`
-- Enable, disable and reorder mods
-- AI-powered mod load order
-- Presets with import, export and sharing
-- Profile Editor
-- Autosave / custom save selection
-- Logitech G923 RPM LEDs
-- LED Studio
-- Steering Wheel Centering
-- Discord account linking
-- Job Dispatcher
-- Automatic backups
-
-> [!NOTE]
-> Presets do not download mods. Every player must already have the required local or Steam Workshop mods installed.
+Brand palette: **Mint** `#6CE4CF` · **Ice** `#E7EFF6` · **Deep navy** `#101D29` · **Teal** `#173F50`.
 
 ---
 
-## Profile Editor
-
-Edit your profile quickly without manually modifying save files.
-
-- Player and company name
-- Money
-- Level `0–150`
-- ADR skills
-- Full map unlock
-- Dealerships
-- Recruitment agencies
-- Autosave or custom save selection
-
----
-
-## Source Code
-
-**Truck Manager v5.0.0 and newer are closed source.**
-
-The latest public source code available in this repository is **v4.0.0**.
-
-| Version | Availability | Source |
-|:---:|:---:|:---:|
-| **v5.4.0** | [Download](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases) | Closed |
-| **v4.0.0** | Repository | Open |
-
----
+## Español
 
 <details>
-<summary><b>🇪🇸 Español</b></summary>
+<summary><strong>Funciones, novedades y primeros pasos</strong></summary>
 
-<br>
+### Tu configuración de ETS2 y ATS en una aplicación
 
-## Truck Manager V5.4.0
+Truck Manager reúne mods, orden de carga, presets, perfiles, trabajos y ajustes de conducción en Windows.
 
-Una actualización centrada en mejorar la compatibilidad con el **Logitech G923**, la edición de perfiles y el **Job Dispatcher**.
+**Versión pública:** V5.5.1 a fecha de 19 de octubre de 2026. Descárgala en [Releases](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest).  
+**V5.6.0 beta:** incluye la nueva interfaz y las funciones ampliadas en pruebas. No todas están disponibles en la descarga pública. **Truck Tuning requiere el rol Beta Tester.**
 
-### Novedades
+### Herramientas principales
 
-- 🎮 LEDs RPM del **Logitech G923 compatibles con ATS**.
-- 💡 Nuevo **LED Studio**.
-- 💾 Selección entre **Autosave** y guardado personalizado.
-- 🛞 Nueva función **Steering Wheel Centering**.
-- 🔗 Vinculación de cuenta de **Discord**.
-- 🚚 Preview 3D del remolque para **Beta Testers**.
-- 🗺️ Corregido **Unlock Full Map**.
-- 📦 Corregidos los nombres de carga del Job Dispatcher.
+- **Orden de carga:** mods locales y de Workshop, categorías, activación, orden automático y guardado en el perfil.
+- **Presets:** guarda combinaciones, compártelas mediante códigos e importa las de otros jugadores. Los presets no descargan los mods.
+- **Perfiles y partidas:** detección de ETS2/ATS, autoguardados, partidas manuales y directorios personalizados.
+- **Editor de perfiles:** datos del jugador y empresa, dinero, nivel, habilidades, mapa, concesionarios y agencias.
+- **RPM y LED Studio:** LEDs del Logitech G923, efectos de arranque, cambio de marcha y marcha atrás, umbrales y centrado del volante.
+- **Cuenta:** vinculación con Discord, información de roles, acceso beta y selección de idioma.
 
-### LED Studio
+### Nueva interfaz V5.6.0 beta
 
-- **Engine RPM** — activa o desactiva los LEDs RPM sin desactivar el plugin.
-- **Engine Start** — efecto al arrancar el motor.
-- **Gear Change** — parpadeo configurable a RPM altas.
-- **Reverse Gear** — parpadeo lento al ir marcha atrás.
-- Ajuste de RPM para el **primer LED**.
-- Ajuste de RPM para tener **todos los LEDs encendidos**.
-- Ajuste del punto de activación y velocidad del parpadeo.
+Logo TM transparente, colores menta y azul oscuro, nuevas distribuciones en Order, RPM y cuenta, y pantalla de conexión renovada. Incluye mejoras de arranque, preparación de trabajos y recuperación de la ventana.
 
-> La preview 3D del remolque está disponible actualmente para **Beta Testers** y está prevista para todos en la **V5.5.0**.
+El inglés es el idioma predeterminado. Puedes cambiarlo desde la aplicación. El modo sin conexión permite usar las herramientas locales disponibles; los servicios online y las funciones restringidas siguen necesitando conexión y acceso verificado.
 
-### Cómo conseguir Beta Tester
+### Job Dispatcher para ETS2 y ATS
 
-Para conseguir acceso a las funciones de **Beta Tester**:
+- **Recoger remolque:** usa tu camión y recoge el remolque del trabajo en la empresa elegida.
+- **Tu remolque:** selecciona ciudad y empresa de salida, una carga compatible y el destino. El catálogo permite elegir cargas compatibles más allá de las ofertas existentes de la empresa.
+- **Trabajo rápido:** crea un trabajo con un camión proporcionado, sin necesitar uno propio.
 
-1. Únete a nuestro [**servidor de Discord**](https://discord.gg/UUfsc89HNv).
-2. Abre un **ticket de Tester**.
-3. Envía la información que se solicita dentro del ticket.
+Las imágenes de carga y vistas previas ayudan a revisar la selección. La preparación puede realizarse desde el menú o la cabina con el perfil cargado, según el estado del juego y la compatibilidad del adaptador. Espera a que la aplicación confirme que la oferta está lista.
 
-Si eres aceptado, recibirás el rol **Beta Tester** y acceso a las funciones exclusivas de prueba.
+Los adaptadores comprueban el juego antes de aplicar cambios. Una actualización del juego puede requerir actualizar Truck Manager o sus adaptadores.
 
-### Funciones principales
+### Truck Tuning — Beta Testers
 
-- Compatibilidad con ETS2 y ATS
-- Mods locales y Steam Workshop
-- Detección automática de perfiles
-- Modo Manual con `-homedir`
-- Activar, desactivar y reordenar mods
-- Orden automático mediante IA
-- Presets importables y compartibles
-- Editor de perfiles
-- LEDs RPM Logitech G923
-- LED Studio
-- Steering Wheel Centering
-- Vinculación con Discord
-- Job Dispatcher
-- Copias de seguridad automáticas
+Controles en tiempo real de potencia, longitud de marchas, restauración **Default truck**, **No Damage** y limitador local para ETS2 y ATS. Su disponibilidad depende del camión y la versión del juego. Vuelve a conectar después de cambiar de camión o cargar otra partida.
 
-### Código fuente
+**Úsalo solo en un jugador. Modificar potencia, marchas, daños o limitadores puede provocar un baneo en TruckersMP.** Que la aplicación detecte el juego no implica que un servidor permita esas modificaciones.
 
-**Truck Manager v5.0.0 y posteriores son de código cerrado.**
+### Empezar y obtener ayuda
 
-La última versión con código fuente público disponible en este repositorio es la **v4.0.0**.
+1. Descarga el ejecutable oficial desde Releases.
+2. Selecciona el juego y tu perfil.
+3. Vincula Discord si la función requiere acceso verificado.
+4. Conserva una partida manual reciente antes de editar.
+5. Para las herramientas en vivo, carga el perfil en el juego y sigue las indicaciones.
+
+No necesitas Python ni configurar una base de datos. Para solicitar acceso beta, entra en [Discord](https://discord.gg/UUfsc89HNv) y abre un **ticket de Tester**.
+
+Al solicitar ayuda, indica versión, juego, pasos para reproducir el problema y el último registro, eliminando datos personales antes de publicarlo.
+
+**V5.0.0 y posteriores son de código cerrado.** Este repositorio no contiene el código actual de la aplicación; el ZIP de código fuente de GitHub no es el instalador.
 
 </details>
 
@@ -185,8 +172,8 @@ La última versión con código fuente público disponible en este repositorio e
 
 <div align="center">
 
-**Cortex Studios**
+**Cortex Studios · Truck Manager**
 
-[Download](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases) · [Discord](https://discord.gg/UUfsc89HNv) · [Email](mailto:cortex.studios.info@gmail.com)
+[Download](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest) · [Discord](https://discord.gg/UUfsc89HNv) · [Email](mailto:cortex.studios.info@gmail.com)
 
 </div>
