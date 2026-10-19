@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#173f50"/><stop offset="1" stop-color="#101d29"/></linearGradient></defs>
+<rect x="1" y="1" width="1198" height="318" rx="26" fill="url(#bg)" stroke="#335363"/>
+<path d="M38 2h110" stroke="#6ce4cf" stroke-width="4"/>
+<svg x="60" y="78" width="244" height="122" viewBox="120 370 1020 510" fill="none"><path fill="#e7eff6" d="M253 398H787L681 500H466L350 854H220L336 500H147Z"/><path fill="#6ce4cf" d="M510 544H690L758 642L958 463H1118L1008 854H871L945 604L721 791L606 624L535 854H410Z"/></svg>
+<path d="M350 68v182" stroke="#335363"/>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="396" y="89" fill="#6ce4cf" font-size="14" font-weight="700" letter-spacing="4">CORTEX STUDIOS</text><text x="392" y="153" fill="#e7eff6" font-size="58" font-weight="700">Truck Manager</text><text x="396" y="197" fill="#a6bdca" font-size="22">Your mods. Your routes. Your setup.</text><text x="396" y="250" fill="#6ce4cf" font-size="15" letter-spacing="2">EURO TRUCK SIMULATOR 2  /  AMERICAN TRUCK SIMULATOR</text></g>
+</svg>
