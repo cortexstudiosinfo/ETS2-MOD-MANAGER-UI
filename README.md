@@ -61,7 +61,9 @@ Job preparation works with the loaded profile from the menu or cab, subject to t
 
 Adapters check the running game before applying changes. Game updates may still require an application or adapter update; compatibility with every future version is not guaranteed.
 
-## Truck Tuning
+## Truck Tuning — Beta Testers only
+
+**Exclusive to Beta Testers.** Link your Discord account with the **Beta Tester** role to access Truck Tuning.
 
 Live controls for the currently loaded truck in **ETS2 and ATS**:
 
@@ -132,7 +134,9 @@ Las imágenes de carga y vistas previas ayudan a revisar la selección. La prepa
 
 Los adaptadores comprueban el juego antes de aplicar cambios. Una actualización del juego puede requerir actualizar Truck Manager o sus adaptadores.
 
-### Truck Tuning
+### Truck Tuning — exclusivo para Beta Testers
+
+**Esta función es exclusiva para Beta Testers.** Vincula tu cuenta de Discord con el rol **Beta Tester** para acceder a Truck Tuning.
 
 Controles en tiempo real de potencia, longitud de marchas, restauración **Default truck**, **No Damage** y limitador local para ETS2 y ATS. Su disponibilidad depende del camión y la versión del juego. Vuelve a conectar después de cambiar de camión o cargar otra partida.
 
