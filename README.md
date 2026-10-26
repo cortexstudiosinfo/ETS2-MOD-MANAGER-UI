@@ -18,6 +18,12 @@
 
 Create custom jobs from the desktop or directly inside **ETS2 and ATS**, with expanded map support, more control over your delivery and improved profile editing.
 
+### Video preview / Vista previa
+
+[![Watch Truck Manager V5.7.0 on YouTube](https://img.youtube.com/vi/RGKkeQpaihk/maxresdefault.jpg)](https://www.youtube.com/watch?v=RGKkeQpaihk)
+
+[▶ Watch the demonstration / Ver la demostración](https://www.youtube.com/watch?v=RGKkeQpaihk)
+
 ### Job Dispatcher inside the game
 
 Press **F8** to open the in-game Job Dispatcher without switching away from your game. The desktop and in-game interfaces provide the same job-creation features:
