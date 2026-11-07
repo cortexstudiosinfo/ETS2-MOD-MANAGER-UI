@@ -8,13 +8,23 @@
 
 [![Latest release](https://img.shields.io/github/v/release/cortexstudiosinfo/ETS2-MOD-MANAGER-UI?style=flat-square&color=6ce4cf&label=Download)](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest)
 ![Platform](https://img.shields.io/badge/Windows-Desktop-173f50?style=flat-square)
-![New release](https://img.shields.io/badge/Update-V5.7.0-6ce4cf?style=flat-square)
+![New release](https://img.shields.io/badge/Update-V5.8.0-6ce4cf?style=flat-square)
 
 [**Download**](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest) · [**Join Discord**](https://discord.gg/UUfsc89HNv) · [**Support**](mailto:cortex.studios.info@gmail.com) · [**Español**](#español)
 
 </div>
 
-## What's new in V5.7.0
+## What's new in V5.8.0
+
+- **F8 map:** company logos, grouping of nearby locations and responsive layout improvements.
+- **3D previews:** better handling of original textures, materials, paint, transparency and normal maps for trucks, trailers and cargo in ETS2 and ATS.
+- **Recovery and diagnostics:** improved handling of incomplete texture resources and preview details in the diagnostic export.
+- **Live jobs:** guarded discovery has been updated for recent game builds, including ATS 1.62. A company-trailer job in ATS was tested by a user; availability depends on the game version, profile, job type and active mods.
+
+Some shader effects and reflections remain approximate in the 3D preview. Steam Cloud profiles have feature restrictions. The existing Job Dispatcher job types remain available where supported; consult readiness messages before accepting a job.
+
+### Previous release: V5.7.0
+
 
 Create custom jobs from the desktop or directly inside **ETS2 and ATS**, with expanded map support, more control over your delivery and improved profile editing.
 
@@ -130,7 +140,17 @@ Include your app version, game, selected feature, reproduction steps and latest 
 
 Truck Manager reúne mods, orden de carga, presets, perfiles, trabajos y ajustes de conducción en Windows.
 
-### Novedades de V5.7.0
+### Novedades de V5.8.0
+
+- **Mapa F8:** mejora de logos, agrupación de ubicaciones y diseño adaptable.
+- **Vistas previas 3D:** mejor tratamiento de texturas, materiales, pinturas, transparencias y normales de camiones, remolques y cargas de ETS2 y ATS.
+- **Recuperación y diagnósticos:** mejor tratamiento de recursos de textura incompletos y detalles de la vista previa en el diagnóstico exportado.
+- **Trabajos en vivo:** detección protegida actualizada para versiones recientes, incluido ATS 1.62. Un usuario ha probado un trabajo con remolque de empresa en ATS; la disponibilidad depende de la versión, perfil, modalidad y mods activos.
+
+Algunos efectos y reflejos de la vista 3D siguen siendo aproximados. Los perfiles Steam Cloud mantienen restricciones en algunas funciones. Las modalidades existentes del Job Dispatcher están disponibles cuando son compatibles; revisa los avisos de preparación antes de aceptar un trabajo.
+
+#### Versión anterior: V5.7.0
+
 
 Crea trabajos personalizados desde Truck Manager o directamente dentro de **ETS2 y ATS**, con compatibilidad ampliada para mapas, más opciones de entrega y un editor de perfiles más rápido.
 
@@ -213,3 +233,4 @@ Al solicitar ayuda, indica versión, juego, pasos para reproducir el problema y 
 [Download](https://github.com/cortexstudiosinfo/ETS2-MOD-MANAGER-UI/releases/latest) · [Discord](https://discord.gg/UUfsc89HNv) · [Email](mailto:cortex.studios.info@gmail.com)
 
 </div>
+
